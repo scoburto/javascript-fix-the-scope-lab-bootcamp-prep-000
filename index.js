@@ -5,13 +5,13 @@ function myAnimal() {
   //returns global variable value 'dog'
 }
 
-function yourAnimal(name) {
+function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  var animal = name;
+  var animal = 'cat';
   return animal;
-  //returns local variable equal to 'name'?
+  //returns local variable equal to 'cat'?
 }
 
 function add2(n) {
